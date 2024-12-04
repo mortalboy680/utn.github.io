@@ -8,8 +8,8 @@ Cv en HTML
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
-## descripcion
-Este proyecto es mi cv en hatml.
+## Descripcion
+Este proyecto es mi cv en html.
 
 ## Instalación
 1. Clona este repositorio:
