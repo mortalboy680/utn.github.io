@@ -1,0 +1,63 @@
+*{
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+  }
+  a{
+    color: blue;
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    margin-top: -20px;
+  }
+  #intro{
+    text-align: center;
+  }
+  #nombre{
+    display: inline-flex;
+    background-color: #FAFAFA;
+    font-size: 50px;
+  }
+  #edad{
+    font-size: 30px;
+  }
+ #YGNC{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 10px solid #FAFAFA;
+ }
+.info, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+.infoExp{
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FAFAFA;
+}
+.infoHbi{
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    background-color: #FAFAFA;
+}
+.infoMi{
+    text-align: center;
+    background-color: #FAFAFA;
+}
+form{
+    background-color: #FAFAFA;
+}
