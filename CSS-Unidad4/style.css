@@ -21,12 +21,13 @@
   #intro{
     text-align: center;
   }
-  #nombre{
-    display: inline-flex;
-    background-color: #FAFAFA;
+  h1{
     font-size: 50px;
   }
-  #edad{
+  #nombre{
+    background-color: #FAFAFA;
+  }
+  h2{
     font-size: 30px;
   }
  #YGNC{
@@ -60,4 +61,17 @@
 }
 form{
     background-color: #FAFAFA;
+}
+textarea{
+  width: 50%;
+  margin: 20px;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  resize: none; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
