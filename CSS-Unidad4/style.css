@@ -1,66 +1,83 @@
 *{
-    font-family: cursive;
-    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 30px;
   }
   a{
     color: blue;
     text-decoration: none; /* Elimina el subrayado */
     font-weight: bold;
   }
-  header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 30px;
-    padding: 20px;
-    margin-top: -20px;
+  ul{
+    list-style: none;
   }
-  #intro{
-    text-align: center;
+  .ul-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: auto;
+    gap: 30%;
+  }
+  .list-item{
+    margin: 5px;
+  }
+  i{
+    font-size: 50px;
   }
   h1{
-    font-size: 50px;
+    font-size: 60px;
   }
   #nombre{
     background-color: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
+    padding-left: 15px;
+  }
+  #edad{
+    padding-left: 15px;
   }
   h2{
-    font-size: 30px;
+    font-size: 45px;
+    text-align: center;
   }
  #YGNC{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     border: 10px solid #FAFAFA;
+    box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
  }
-.info, footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 30px;
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+  
 }
-.infoExp{
-    flex-direction: column;
+.flex-item{
+    flex-wrap: wrap;
     padding: 10px;
     margin: 20px;
+    height: 400px;
+    width: 500px;
     background-color: #FAFAFA;
+    border-radius: 15%;
+    box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
 }
-.infoHbi{
-    flex-direction: column;
-    padding: 10px;
-    margin: 20px;
-    background-color: #FAFAFA;
-}
-.infoMi{
-    text-align: center;
-    background-color: #FAFAFA;
-}
-form{
-    background-color: #FAFAFA;
+.flex-footer-item{
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 20px;
+  background-color: #FAFAFA;
+  border: 10px solid #FAFAFA;
+  border-radius: 15px;
+  box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
 }
 textarea{
   width: 50%;

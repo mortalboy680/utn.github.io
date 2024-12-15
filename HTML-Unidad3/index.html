@@ -5,84 +5,72 @@
     <title>CV:Yago Gabriel Nigro</title>
     <link rel="stylesheet" href="../CSS-Unidad4/style.css" />
     <!-- Enlace a Boxicons CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
-    <link rel="icon" href="../iconos/cv.png" type="image/png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../iconos/cv.png" type="image/png" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div id="intro">
+    <header class="flex">
+      <div>
         <h1 id="nombre">Yago Gabriel Nigro Caserta</h1>
-        <h2 id="edad">Estudiante, 18 años</h2>
+        <h2 id="edad">Estudiante de ingenieria en sistemas de infrormación, 18 años</h2>
+      </div>
+      <div>
         <img src="Yago-GNC.jpg" alt="Imagen de Yago" width="150" id="YGNC" />
-        <nav>
-          <i class='bx bxl-linkedin-square'></i>
+        <!--<nav>
+          <i class="bx bxl-linkedin-square"></i>
           <a href="https://www.linkedin.com/in/yagonigro/" target="_blank">Linkedin</a>
-        </nav>
+        </nav>-->
       </div>
     </header>
 
     <main>
-      <section class="info">
-        <div class="infoExp">
-          <p>¿Que series me gustan?</p>
-          <ul>
-            <li>1-Blindspot</li>
-            <li>2-Dexter</li>
-            <li>3-Prison Break</li>
+      <section class="flex">
+        <div class="flex-item">
+          <h2>CONOCIMIENTOS</h2>
+          <ul class="ul-list">
+            <li class="list-item"><i class="bx bxl-html5"></i></li>
+            <li class="list-item"><i class="bx bxl-css3"></i></li>
+            <li class="list-item"><i class="bx bxl-javascript"></i></li>
+            <li class="list-item"><i class="bx bxl-nodejs"></i></li>
+            <li class="list-item"><i class="bx bxl-react"></i></li>
+            <li class="list-item"><i class="bx bxl-git"></i></li>
+            <li class="list-item"><i class="bx bxl-github"></i></li>
+            <li class="list-item"><i class='bx bx-terminal'></i></li>
+            <li class="list-item"><i class='bx bxl-c-plus-plus'></i></li>
           </ul>
         </div>
-        <div class="infoHbi">
-          <p>¿Que peliculas son las que mas me gustaron?</p>
+        <div class="flex-item">
+          <h2>HABILIDADES</h2>
           <ul>
-            <li>Rapidos y furiosos - reto tokio</li>
-            <li>The Punshier</li>
-            <li>Wolverine</li>
+            <li>Trabajo en equipo</li>
+            <li>Productivo</li>
+            <li>Resiliencia</li>
+            <li>Liderazgo</li>
+            <li>Trato con personas</li>
+            <li>Responsabilidad</li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <h2>CONTACTO</h2>
+          <ul>
+            <li><i class='bx bxs-phone'></i> 11-2541-5979</li>
+            <li><i class='bx bxs-map' ></i> Buenos Aires</li>
+            <li><i class='bx bxl-gmail' ></i> <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlDTBkztJxPqxVQCMdkndlGPTKVBjpXgPhpCdpHTtGFjmbJkLqTrcMLxBsnlvxqvZFJsWg" target="_blank">yago.gn007@hotmail.com</a></li>
+            <li><i class='bx bxl-linkedin-square' ></i><a href="https://www.linkedin.com/in/yagonigro/" target="_blank">Linkedin</a></li>
           </ul>
         </div>
       </section>
-      <section class="info">
-        <div class="infoMi">
-          <p>
-            ¡Buenas! Mi nombre es Yago, me gusta ir al gimansio, la facultad,
-            comer bien y vivir la vida. No me gusta la mentira, desonestidad y
-            las falsas personas.
-          </p>
-        </div>
-      </section>
-
-      <!-- <section>
-        <h3>Habilidades:</h3>
-        <p>Aprendi a hacer un circulo</p>
-        <div>
-          <svg width="100" height="100">
-            <circle
-              cx="50"
-              cy="50"
-              r="40"
-              stroke="green"
-              stroke-width="4"
-              fill="red"
-            ></circle>
-          </svg>
-        </div>
-        <p>Aprendi a instertar audio</p>
-        <p>Las pastillas del abuelo - Cerveza:</p>
-        <audio src="Materialparapracticas/Laspastidlabuelocerveza.m4a" controls></audio>
-        <p>Aprendi a instertar un video</p>
-        <video src="Materialparapracticas/Larengabalada.mp4" controls width="600"></video>
-        <p>"Avlaracion: Obviamente esto no formara parte de mi CV, es a modo dicatico"</p>
-    </section> -->
     </main>
-    <footer>
-      <form action="" method="">
-        <!-- <p>
-          <label for="nom">Enviar Mensaje</label>
-          <input type="text" name="nombre" />
-        </p>
-        <p>
-          <input type="submit" value="Enviar" />
-          <input type="reset" value="Borrar" />
-        </p> -->
+
+    <footer class="flex">
+      <form action="" method="" class="flex-footer-item">
         <p>
           Completa este formulario para entrar en contacto:
           <a href="formulario.html" target="_blank">formulario</a>
