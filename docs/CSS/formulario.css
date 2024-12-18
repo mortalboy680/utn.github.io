@@ -1,14 +1,30 @@
-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 100px;
-    padding: 50px;
-    background-color: #FAFAFA;
-    border: 10px solid #FAFAFA;
-    border-radius: 15px;
-    box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex-form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-item-form{
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+  margin: 20px;
+  height: 50%;
+  background-color: #FAFAFA;
+  border-radius: 20px;
+  box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
+}
+#form-cont-h1{
+  font-size: 50px;
+}
+#form-cont-h2{
+  font-size: 30px;
 }
 #email{
     height: 20px;
