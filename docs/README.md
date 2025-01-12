@@ -14,7 +14,7 @@ Este proyecto es mi cv en html.
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/mortalboy680/Html
+   git clone https://github.com/mortalboy680/porfolio
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
@@ -26,7 +26,7 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Créditos
-- Desarrollado por [Yago Gabriel Nigro Caserta](https://github.com/tu-usuario).
+- Desarrollado por [Yago Gabriel Nigro Caserta](https://github.com/mortalboy680).
 
 ## Estado del proyecto
 🚧 En desarrollo

@@ -1,19 +1,35 @@
 * {
-  font-family: "Manrope", sans-serif;
+  font-family: "Roboto", serif;
   font-optical-sizing: auto;
+  font-style: normal;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   list-style: none;
   cursor: default;
 }
-
+body{
+  height: 100vh;
+}
+.animacion-body{
+  opacity: 0;
+  animation: body 3s ease-out forwards;
+}
+@keyframes body {
+  to {
+    opacity: 1; /* Visible */
+    transform: translateX(0); /* En su posición final */
+  }
+}
 a {
   color: blue;
   text-decoration: none;
   /* Elimina el subrayado */
   font-weight: bold;
   cursor: pointer;
+}
+a:hover {
+  color: #0056b3;
 }
 
 .ul-list {
@@ -43,7 +59,6 @@ h1 {
   box-shadow: 11px 10px 60px -37px rgba(10, 10, 10, 1);
   padding-left: 15px;
 }
-
 #edad {
   padding-left: 15px;
 }
@@ -58,8 +73,8 @@ h2 {
   width: 350px;
   height: 350px;
   object-fit: cover;
-  border: 10px solid #FAFAFA;
-  box-shadow: 11px 10px 60px -37px rgba(10, 10, 10, 1);
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .flex {
@@ -82,11 +97,11 @@ h2 {
   background-color: #FAFAFA;
   border-radius: 15%;
   box-shadow: 11px 10px 60px -37px rgba(10, 10, 10, 1);
+  transition: all .5s ease;
 }
 
 .flex-item:hover {
   flex-wrap: wrap;
-  transition: .5s;
   padding: 20px;
   margin: 20px;
   height: 400px;
