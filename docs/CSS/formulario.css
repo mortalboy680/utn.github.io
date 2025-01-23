@@ -1,51 +1,99 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.flex-form{
+
+.flex-form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
-.flex-item-form{
+.flex-item-form {
   text-align: center;
   justify-content: center;
-  padding: auto;
+  padding: 20px;
   margin: 20px;
-  height: 50%;
-  background-color: #FAFAFA;
+  width: 80%; /* Ajustable */
+  max-width: 500px; /* Límite para pantallas grandes */
+  background-color: #e8e8e8;
   border-radius: 20px;
-  box-shadow: 11px 10px 60px -37px rgba(10,10,10,1);
+  box-shadow: 11px 10px 60px -37px rgba(10, 10, 10, 1);
 }
-#form-cont-h1{
+
+#form-cont-h1 {
   font-size: 50px;
 }
-#form-cont-h2{
+
+#form-cont-h2 {
   font-size: 30px;
 }
-#email{
-    height: 20px;
-    width: 250px;
-    padding: 10px;
+
+#email {
+  height: 20px;
+  width: 90%; /* Más flexible */
+  max-width: 250px;
+  padding: 10px;
 }
-#botEnv{
-    border-radius: 50%;
-    border: 2px solid #cccccc;
-    height: 100px;
-    width: 100px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .email{
-    height: 10px;
-    padding: 10px 90px 10px 10px;
-    border: 2px solid #cccccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    color: #333;
-    font-size: 14px;
+
+#botEnv {
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.email {
+  height: 40px;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Ajustable */
+  max-width: 300px; /* Límite */
+}
+
+/* Media Queries para responsividad */
+
+@media (max-width: 768px) {
+  .flex-item-form {
+    width: 90%; /* Más espacio en pantallas pequeñas */
     margin: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+
+  #form-cont-h1 {
+    font-size: 40px; /* Reducir tamaño en pantallas pequeñas */
+  }
+
+  #form-cont-h2 {
+    font-size: 24px;
+  }
+
+  #email,
+  .email {
+    width: 100%; /* Usar todo el ancho disponible */
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #form-cont-h1 {
+    font-size: 30px; /* Aún más pequeño */
+  }
+
+  #form-cont-h2 {
+    font-size: 20px;
+  }
+
+  .flex-item-form {
+    padding: 15px;
+  }
+}
